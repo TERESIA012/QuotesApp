@@ -3,7 +3,7 @@ export class Quotes {
     dislike: any;
       constructor(public index:number ,public name: string, public quote: string, public musician: string,public posted:Date) {
           this.showQuote=false;
-          // this.posted=new Date;
+          
       }
 
 
