@@ -21,7 +21,7 @@
                     <div class="card-body">
                         
                         <h6 class="card-title">{{quote.musician}} <br><br> </h6>
-                        <!-- <app-quote-detail>[quotes]='quotes'</app-quote-detail> -->
+                        
                         <button type="button" class="btn btn-dark" (click)='toggleDetails(i)' >See More</button><br><br>
                         <div class="icon">
                             <app-quote-detail [quotes]='quote' *ngIf='quote.showQuote' (isComplete)='completeQuote($event,i)'></app-quote-detail>
