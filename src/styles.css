@@ -86,6 +86,8 @@ h1 {
   }
 /* body {
     background-image: url("src/assets/artist.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 } */
 
 
