@@ -1,1 +1,8 @@
-<p>quote-detail works!</p>
+<p class="card-text">{{quotes.quote}}</p>
+<h5 class="card-title">{{quotes.name}}</h5>
+<p class="card-title"> Posted on : {{quotes.posted|dateCount}} days ago</p>
+
+<i (click)='onClickLikes()' class="far fa-thumbs-up">{{likes}}</i>
+<i (click)='onClickDislike()' class="far fa-thumbs-down">{{dislike}}</i>
+
+<i (click)='quoteDelete(true)' class="far fa-trash-alt"></i><br>
