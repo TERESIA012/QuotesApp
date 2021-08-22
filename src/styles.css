@@ -1,2 +1,87 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+   
+}
+
+.container-fluid {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #000;
+    padding: 1em 0;
+    padding: 25px 0;
+
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+}
+a.logo {
+    font-weight: bold;
+}
+
+nav {
+    float: right;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+}
+li a{
+    padding: 1em;
+    
+}
+a:hover{
+    background: darken(#000);
+    color: purple;
+}
+h1 {
+    margin-top: 2em;
+}
+.jumbotron {
+    text-align: center;
+}
+
+.card-body {
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+  }
+  .card {
+    margin: 20px 10px;
+  }
+  
+  i {
+    margin-right: 30px;
+    color: black;
+  }
+
+  form {
+    max-width: 500px;
+    /* margin-left: 100px; */
+  }
+  
+  
+  footer {
+    text-align: center;
+    padding: 20px 0px;
+    background-color: black;
+    color: #fff;
+    height: 80px;
+  }
+
+  form {
+      margin-left: 30%;
+  }
+
+
+
