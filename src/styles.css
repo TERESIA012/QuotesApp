@@ -9,6 +9,7 @@
     padding: 0;
     list-style-type: none;
     box-sizing: border-box;
+    
    
 }
 
@@ -83,6 +84,8 @@ h1 {
   form {
       margin-left: 30%;
   }
-
+/* body {
+    background-image: url("src/assets/artist.jpg");
+} */
 
 
