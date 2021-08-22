@@ -1,5 +1,8 @@
 # Quotes
 
+# Author
+## Teresia King'ori
+
 ### The QuoteApp application allows the user to generate their quotes and also like or delete the quote.
 ____
 
