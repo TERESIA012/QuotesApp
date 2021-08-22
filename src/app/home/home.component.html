@@ -1,1 +1,38 @@
-<p>home works!</p>
+<header>
+    <div class="container-fluid">
+        <a href="#" class="logo">QuotesApp</a>
+        <nav>
+            <ul>
+                <li><a href="#" routerLink="/">Home</a></li>
+                <li><a href="#" routerLink="/quotes">Quotes</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<div class="jumbotron">
+    <h1>Artist Quotes</h1>
+    <p>Generate quotes with QuotesApp</p>
+    <div class="container">
+        <div class="row" >
+           
+            <div class="col-md-4" *ngFor='let quote of quotes; let i=index'>
+                <div class="card text-center">
+                    <img src="../assets/artist.jpg" alt="" height="250" class="card-img-top">
+                    <div class="card-body">
+                        
+                        <h6 class="card-title">{{quote.musician}} <br><br> </h6>
+                        <!-- <app-quote-detail>[quotes]='quotes'</app-quote-detail> -->
+                        <button type="button" class="btn btn-dark" (click)='toggleDetails(i)' >See More</button><br><br>
+                        <div class="icon">
+                            <app-quote-detail [quotes]='quote' *ngIf='quote.showQuote' (isComplete)='completeQuote($event,i)'></app-quote-detail>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><br><br>
+
+    <app-form (addQuote)="addNewQuote($event)" ></app-form> 
+
+
