@@ -1,5 +1,8 @@
 # Quotes
 
+### The QuoteApp application allows the user to generate their quotes and also like or delete the quote.
+____
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.
 
 ## Development server
@@ -25,3 +28,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Contact
+[Email]( teresia.king'ori@student.moringaschool )
+___
+
+# Licence
+	[MIT](https://github.com/TERESIA012/QuotesApp/blob/master/Licence)
+
+# &COPY;2021
