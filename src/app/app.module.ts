@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { QuoteDetailComponent } from './quote-detail/quote-detail.component';
 import { FormComponent } from './form/form.component';
+import { DateCountPipe } from './date-count.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     QuoteDetailComponent,
-    FormComponent
+    FormComponent,
+    DateCountPipe
   ],
   imports: [
     BrowserModule,
