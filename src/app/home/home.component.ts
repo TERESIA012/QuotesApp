@@ -27,7 +27,7 @@ export class HomeComponent implements OnInit {
 
 completeQuote(isComplete:any,index:number){
 if(isComplete){
-  let toDelete=confirm(`Are you sure you want to delete ${this.quotes[index].name}?`)
+  let toDelete=confirm(`Are you sure you want to delete this quote posted by ${this.quotes[index].name}?`)
   if (toDelete){
   this.quotes.splice(index,1);
   }
